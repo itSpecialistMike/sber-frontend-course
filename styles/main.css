@@ -101,9 +101,13 @@ button {
 }
 
 .form__group {
+	margin-top: 60px;
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+	/* gap: 20px; 
+	гэп не по плану */
+	
 }
 
 .form {
@@ -117,3 +121,41 @@ button {
 	text-align: center;
 }
 
+.form label {
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 15px;
+	
+}
+
+.form input, select {
+	margin-top: 20px; /* тоже не по плану, но выглядит норм*/
+	font-size: 18px;
+	color:  #213053;
+	height: 60px;
+	padding: 0 0 20px 20px;
+	border-radius: 15px;
+	border: none;
+}
+
+.form form {
+	margin-top: 60px;
+	display: grid;
+	grid-gap: 20px;
+	/* говно какое-то с 4.6 в разделе размер грида */
+}
+
+.form__submit {
+	margin-top: 40px;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+
+select {
+	appearance: none;
+}
+
+input {
+	outline: none;
+}
