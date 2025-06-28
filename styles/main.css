@@ -288,3 +288,7 @@ footer {
        flex-direction: column;
    }
 }
+
+.about__sun-image:hover {
+	animation-duration: 2s;
+}
