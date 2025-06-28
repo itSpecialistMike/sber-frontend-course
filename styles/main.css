@@ -388,9 +388,12 @@ footer {
 }
 
 .promo__card p::before {
-	content: "•";
-	border-radius: 10px;
-	color: #ec6b29;
+	content: '';
+    display: inline-block;
+    width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ec6b29;
 	margin-right: 10px;
 }
 
